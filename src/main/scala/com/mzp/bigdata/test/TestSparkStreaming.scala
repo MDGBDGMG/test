@@ -12,6 +12,7 @@ object TestSparkStreaming {
     // 安装netcat 放到system32文件夹下
     // 在cmd里输入命令 nc -L -p 9999 -v
     // 开启本代码，然后在cmd里输入一些文字
+    ////ADJFI
     val lines = ssc.socketTextStream("localhost", 9999)
 
 
